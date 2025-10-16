@@ -3,6 +3,11 @@
     <head>
         <meta charset="utf-8">
         <title>Elementos de formato de párrafo</title>
+        <style>
+            table{
+                text-align: center;
+            }
+        </style>
     </head>
     <body>
         <h1>Este es un encabezado de nivel 1.</h1>
@@ -46,6 +51,85 @@
             <li>Segundo elemento</li>
             <li>Tercer elemento</li>
         </ul>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miércoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mates</td>
+                    <td colspan="3" rowspan="2"><p>Dibujo</p></td>
+                    <td rowspan="3">Historia</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Física</td>
+                </tr>
+                <tr>
+                    <td>Lengua</td>
+                    <td>Inglés</td>
+                    <td>Francés</td>
+                </tr>
+                <tr>
+                    <td>EF</td>
+                    <td>Fútbol</td>
+                    <td>Tenis</td>
+                    <td>Mates</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+        <br>
+        <table border="10">
+            <thead>
+                <tr>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miércoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+               <tr>
+                <td rowspan="2"><p>Programación</p></td>
+                <td><p>Lenguaje</p></td>
+                <td rowspan="2"><p>Bases</p></td>
+                <td><p>Digitalización</p></td>
+                <td rowspan="3"><p>Sistemas</p></td>
+               </tr>
+               <tr>
+                <td rowspan="2"><p>Bases</p></td>
+                <td rowspan="2"><p>Lenguaje</p></td>
+               </tr>
+               <tr>
+                <td rowspan="2"><p>Entornos</p></td>
+                <td rowspan="2"><p>Sistemas</p></td>
+               </tr>
+               <tr>
+                <td rowspan="2"><p>Programación</p></td>
+                <td><p>IPE</p></td>
+                <td rowspan="2"><p>Programación</p></td>
+               </tr>
+               <tr>
+                <td rowspan="2"><p>Bases</p></td>
+                <td><p>Sostenibilidad</p></td>
+                <td rowspan="2"><p>Programación</p></td>
+               </tr>
+               <tr>
+                <td><p>Entornos</p></td>
+                <td><p>IPE</p></td>
+                <td><p>IPE</p></td>
+               </tr>
+            </tbody>
+        </table>
     </body>
 </html>
 
