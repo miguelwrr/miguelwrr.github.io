@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Miguel Rodriguez</title>
+    <meta name="description" content="Mi primera página web!!">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="yo">
+    <style>
+      body{
+        background-color: powderblue;
+      }
+      h1{
+        color: red;
+      }
+      p{
+        color: blue;
+      }
+    </style>
+  </head>
+  <body> 
+    <h1 id="demo" onclick="myFunction()">Hola Mundo</h1>
+    <p>Tu nombre</p>
+    <a href="ejemplos.html" style="color: red;">Ejemplos</a>
+    <a href="marcadores.html" style="color: rgb(10, 223, 81);">Marcadores</a>
+
+
+    <script>
+      let x = 0;
+      function myFunction(){
+        
+        let elem =  document.getElementById("demo");
+        if (Math.floor(Math.random() * 10) == 0){
+          elem.innerHTML = "Jesus Marica";
+        }
+      }
+    </script>
+  </body>
+
+
+  
+</html>
+
+
+
+
