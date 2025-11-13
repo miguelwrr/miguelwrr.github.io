@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entradas</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>CodeFest 2025</h1>
+        <h2>Donde la Música y el Código se encuentran</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/index.html">Página principal</a></li>
+            <li><a href="cartel.html">Cartel</a></li>
+            <li><a href="localizacion.html">Localización</a></li>
+            <li><a href="entradas.html">Entradas</a></li>
+        </ul>
+
+    </nav>
+    <main>
+       <form action="https://www.w3schools.com/action_page.php" method="POST">
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <label for="name">Nombre completo: </label>
+                <input type="text" name="nombre" id="name" placeholder="Nombre y apellidos"><br>
+                <label for="email">Correo electrónico: </label>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Tipo de Entrada</legend>
+                <input type="radio" name="tipo" id="tipo1" value="tipo1">
+                <label for="tipo1">Abono General (3 Días)</label><br>
+                <input type="radio" name="tipo" id="tipo2" value="tipo2">
+                <label for="tipo2">Abono VIP (3 Días)</label><br>
+                <input type="radio" name="tipo" id="tipo3" value="tipo3">
+                <label for="tipo3">Entrada de Día</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Extras</legend>
+                <input type="checkbox" name="camping" id="camping">
+                <label for="camping">Camping</label><br>
+                <input type="checkbox" name="merch" id="merch">
+                <label for="merch">Pack Merchandising</label><br>
+                <input type="checkbox" name="talleres" id="talleres">
+                <label for="talleres">Acceso a Talleres Tech</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Día (Solo si es Entrada de Día)</legend>
+                <select name="dia" id="dia">
+                    <option value="viernes">Viernes</option>
+                    <option value="sabado">Sábado</option>
+                    <option value="domingo">Domingo</option>
+                </select>
+            </fieldset>
+            <button type="submit">Enviar</button>
+       </form> 
+    </main>
+    <footer>
+        <p>© 2025 CodeFest. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
