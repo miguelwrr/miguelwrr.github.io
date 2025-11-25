@@ -1,0 +1,38 @@
+body{
+    background-color: #B5F4FF;
+}
+
+h1{
+    font-family: helvetica;
+}
+
+header{
+    background-color: #007bff;
+}
+header nav a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+
+#contenido{
+    padding: 30px;
+}
+
+#contenido h2{
+    font-size: 28px;
+}
+
+#contenido p{
+    font-size: larger;
+    color: darkviolet;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 6px;
+}
